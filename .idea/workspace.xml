@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a5f924-7800-4911-8c6c-7894a5ecb0d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/AggregateByKeyRDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/PartitionBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/ReduceByKeyRDD.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day01/GlomRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day01/GlomRDD.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/target/classes/com/atguigu/spark/core/day01/GlomRDD$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/target/classes/com/atguigu/spark/core/day01/GlomRDD$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/target/classes/com/atguigu/spark/core/day01/GlomRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/target/classes/com/atguigu/spark/core/day01/GlomRDD$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +95,13 @@
       <recent name="H:\ideaPoject\Spark\spark-core\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortByKeyRDD">
-    <configuration name="AggragateByKeyRDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.MyTest02.AggragateByKeyRDD" />
+  <component name="RunManager" selected="Application.AggregateByKeyRDD">
+    <configuration name="AggregateByKeyRDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.AggregateByKeyRDD" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.MyTest02.*" />
+          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +122,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionBy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.PartitionBy" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReduceByKeyRDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.ReduceByKeyRDD" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortByKeyRDD" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.MyTest02.SortByKeyRDD" />
       <module name="spark-core" />
@@ -131,39 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortByRDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day01.SortByRDD" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mapValues" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.MyTest02.mapValues" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.MyTest02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AggregateByKeyRDD" />
+        <item itemvalue="Application.ReduceByKeyRDD" />
+        <item itemvalue="Application.PartitionBy" />
         <item itemvalue="Application.SortByKeyRDD" />
         <item itemvalue="Application.CombineByKeyRDD" />
-        <item itemvalue="Application.mapValues" />
-        <item itemvalue="Application.AggragateByKeyRDD" />
-        <item itemvalue="Application.SortByRDD" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,7 @@
       <workItem from="1578195206860" duration="18842000" />
       <workItem from="1578269777153" duration="19841000" />
       <workItem from="1578303699688" duration="13156000" />
-      <workItem from="1578356967160" duration="2218000" />
+      <workItem from="1578356967160" duration="6854000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1578304112978</created>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578357064749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test3">
+      <created>1578359322072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578359322072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,12 +272,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="75" key="#Scala/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578212533913" />
-    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578316482672">
+    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578363389291">
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="1271" y="1041" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578299400767" />
     <state x="500" y="171" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578237474918" />
-    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578316482672" />
+    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578363389291" />
     <state x="1333" y="2234" key="#com.intellij.ide.util.MemberChooser" timestamp="1578293363558">
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
@@ -276,11 +287,11 @@
       <screen x="1116" y="2160" width="1280" height="680" />
     </state>
     <state x="1381" y="2182" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578107183979" />
-    <state x="345" y="9" key="CommitChangelistDialog2" timestamp="1578357062341">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1142" y="2160" key="CommitChangelistDialog2" timestamp="1578359320233">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="345" y="9" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578357062341" />
-    <state x="1142" y="2160" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578307808894" />
+    <state x="1142" y="2160" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578359320233" />
     <state x="604" y="309" key="Github.ShareDialog" timestamp="1578304288446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -289,41 +300,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="120" key="Github.UntrackedFilesDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578303976308" />
-    <state width="1493" height="141" key="GridCell.Tab.0.bottom" timestamp="1578325815183">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1578365753817">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.bottom/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
     <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310948317" />
-    <state width="1238" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578317401782" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578364983108" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578365753817" />
     <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578325815183" />
-    <state width="1493" height="141" key="GridCell.Tab.0.center" timestamp="1578325815182">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1578365753816">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.center/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
     <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310948316" />
-    <state width="1238" height="141" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578317401782" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578364983108" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578365753816" />
     <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
-    <state width="1493" height="141" key="GridCell.Tab.0.left" timestamp="1578325815182">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1578365753816">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.left/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
     <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565048" />
-    <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310948316" />
-    <state width="1238" height="141" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578317401781" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578364983108" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578365753816" />
     <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
-    <state width="1493" height="141" key="GridCell.Tab.0.right" timestamp="1578325815182">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1578365753817">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.right/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
     <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310948316" />
-    <state width="1238" height="141" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578317401782" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578364983108" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578365753817" />
     <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
     <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1578238798052">
       <screen x="0" y="0" width="1536" height="824" />
@@ -346,6 +357,10 @@
     </state>
     <state x="1260" y="2160" key="SettingsEditor/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128026979" />
     <state x="998" y="2160" key="SettingsEditor/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578277180702" />
+    <state x="1087" y="2237" key="Vcs.Push.Dialog.v2" timestamp="1578359326632">
+      <screen x="854" y="2160" width="1280" height="680" />
+    </state>
+    <state x="1087" y="2237" key="Vcs.Push.Dialog.v2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578359326632" />
     <state x="1592" y="2408" key="WebDeployment.AddServerDialog.v.1" timestamp="1578128141370">
       <screen x="1116" y="2160" width="1280" height="680" />
     </state>
@@ -361,12 +376,12 @@
       <screen x="1116" y="2160" width="1280" height="680" />
     </state>
     <state x="1144" y="2205" key="new project wizard/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578127055360" />
-    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup" timestamp="1578313654009">
+    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup" timestamp="1578365678229">
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="1419" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578127647737" />
     <state x="364" y="1" width="807" height="822" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310878872" />
-    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578313654009" />
+    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578365678229" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
