@@ -9,6 +9,7 @@ object PartitionBy {
     val sc = new SparkContext(conf)
     val rdd1: RDD[Int] = sc.parallelize(Array(10, 60, 70, 50,60),1)
     val rdd2: RDD[(Int, Int)] = rdd1.map((_, 1))
+    //会发生shuffle
     val rdd3: RDD[(Int, Int)] = rdd2.partitionBy(new HashPartitioner(2))
 
     rdd3.glom().collect().foreach(it=>println("分区："+it.mkString(",")))

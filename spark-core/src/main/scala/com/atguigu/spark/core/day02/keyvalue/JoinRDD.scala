@@ -15,6 +15,8 @@ object JoinRDD {
 
     val rdd3: RDD[(Int, (Option[String], Option[String]))] = rdd1.fullOuterJoin(rdd2)
 
+    //RDD里面的匿名函数全在executor端执行
+    //匿名函数默认实现序列化
     rdd3.collect.foreach(println)
 
   }

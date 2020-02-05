@@ -2,20 +2,276 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a5f924-7800-4911-8c6c-7894a5ecb0d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/Foreach.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/Reduce.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/TakeOrdered.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/count.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomDate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomNumUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomOptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/java/com/atguigu/gmall083001/gmall083001logger/Gmall083001LoggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/scala/com/atguigu/gmall083001/gmall083001logger/controller/LoggerController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/test/java/com/atguigu/gmall083001/gmall083001logger/Gmall083001LoggerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/mock/mock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/mock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/mock/src/main/scala/com/atguigu/gmall083001/mock/JsonMock.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall083001/mock/src/main/scala/com/atguigu/gmall083001/mock/util/LogUploader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/ConstantUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomDate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomNumUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomOptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/java/com/atguigu/gmall0831logger/Gmall0831LoggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/scala/com/atguigu/gmall0831logger/controller/LoggerController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/test/java/com/atguigu/gmall0831logger/Gmall0831LoggerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/gmall0831-mock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/JsonMock.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/util/LogUploader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/gmall0831-realtime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/app/DauApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/bean/StartupLog.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/MyKafkaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/PropertiesUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/RedisUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/mockdata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/CityInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/mock/MockRealtime.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/util/RandomNumUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/util/RandomOptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/spark-core-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/acc/CategoryAcc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/CategorySessionTop10App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/CategoryTop10App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/ProjectApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/CategoryCountInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/CategorySession.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/UserVisitAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/acc/MyCatagoryTop10Acc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/CatagoryTop10App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/CateforyTop10Session.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/PageConvertApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/ProjectApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/CategoryCountInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/CategorySession.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/UserVisitAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/CheckPoint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/JobTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/TransmitFun.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/BroadCastTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/MyLongAcc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/MyMapAcc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/TestMax.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/CheckPoint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/HBaseRead.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/JDBCRead.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/JDBCWrite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/MyPartition.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/SaveText.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/TranssmitFunc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/BroadcastTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/MapAcc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/MyAcc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/hello/Test01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/spark-sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DF2DS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DS2Other.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DSDeme.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/RDD2DF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/RDD2DF_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/udf/MySumUDF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/udf/MySumUDFTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/CityRemarkUDAF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/CityRemarkUDAF1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/HiveOprate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/JDBCRead.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/JDBCWrite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/Project_Hive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/CreateDS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/DF2DS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/DF2RDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/RDD2DF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/RDD2DS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/hive/HiveSQL.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/project/RemarkUDAF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/project/SqlApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvg.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvgStroge.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvgTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MySum.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MySumTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/spark-streaming-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/AreaAdsClickTop3App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/LastHourAdsClickApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/bean/AdsInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo8.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo9.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/MapDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/demo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/util/MyKafkaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/util/MyRedisUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/spark-streaming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/Kafka_WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/MyReceiver.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/WordCount2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/KfkaWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/KfkaWordCount2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/CustomReceiver.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/transform/TransformDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/transform/WithStateDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/wordcount1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/wordcount2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test02/windows/Test01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test02/windows/Test02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-warehouse/sql20200111.db/user/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-warehouse/sql20200111.db/user/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/AggregateByKeyRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/AggregateByKeyRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/CoGroup.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/CoGroup.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/CombineByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/CombineByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/FolfByKeyRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/FolfByKeyRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/JoinRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/JoinRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/PartitionBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/PartitionBy.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/Pratice.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/Pratice.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/ReduceByKeyRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/ReduceByKeyRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/action/SortByKeyRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/SortByKeyRDD.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/JoinRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/JoinRDD.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/PartitionBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/PartitionBy.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +292,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hadoop102-Spark" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hadoop102-Spark" type="feb32156:DbDataSourceImpl" />
+        <item name="default: schema" type="12f5d653:SparkImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -44,6 +310,9 @@
       <list>
         <option value="Class" />
         <option value="Package Object" />
+        <option value="Scala Object" />
+        <option value="FxmlFile" />
+        <option value="Scala Class" />
       </list>
     </option>
   </component>
@@ -79,7 +348,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="246b12ff-9796-4de8-935d-e160786e7818&#10;mysql&#10;hive&#10;java.sql.Driver&#10;30c3b076-a8c2-4351-87c1-80dc19b9115d" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -87,19 +358,26 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall0831" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\ideaPoject\Spark\spark-core" />
-      <recent name="H:\ideaPoject\Spark\spark-core\src\main\resources" />
+      <recent name="H:\ideaPoject\Spark\spark-streaming-project\src\main\resources" />
+      <recent name="H:\ideaPoject\Spark\spark-streaming\src\main\resources" />
+      <recent name="H:\ideaPoject\Spark\spark-sql\src\main\scala\com\atguigu\day01" />
+      <recent name="H:\ideaPoject\Spark\spark-sql\src\main\resources" />
+      <recent name="H:\ideaPoject\Spark\spark-core-project\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.spark.core.day01" />
+      <recent name="com.atguigu.spark.streaming.day02" />
+      <recent name="com.atguigu.spark.streaming.test02.windows" />
+      <recent name="com.atguigu.spark.streaming.test01" />
+      <recent name="com.atguigu.spark.streaming.day01" />
+      <recent name="com.atguigu.test02.udf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\ideaPoject\Spark\spark-core\src\main\resources" />
@@ -108,13 +386,13 @@
       <recent name="H:\ideaPoject\Spark" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reduce">
-    <configuration name="CoGroup" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.keyvalue.CoGroup" />
-      <module name="spark-core" />
+  <component name="RunManager" selected="Application.Demo9">
+    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.realtime.test.Demo5" />
+      <module name="spark-streaming-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day02.keyvalue.*" />
+          <option name="PATTERN" value="com.atguigu.realtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +400,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Foreach" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.Foreach" />
-      <module name="spark-core" />
+    <configuration name="Demo6" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.realtime.test.Demo6" />
+      <module name="spark-streaming-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
+          <option name="PATTERN" value="com.atguigu.realtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +413,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pratice" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.keyvalue.Pratice" />
-      <module name="spark-core" />
+    <configuration name="Demo7" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.realtime.test.Demo7" />
+      <module name="spark-streaming-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day02.keyvalue.*" />
+          <option name="PATTERN" value="com.atguigu.realtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +426,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.Reduce" />
-      <module name="spark-core" />
+    <configuration name="Demo8" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.realtime.test.Demo8" />
+      <module name="spark-streaming-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
+          <option name="PATTERN" value="com.atguigu.realtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +439,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeOrdered" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.day02.action.TakeOrdered" />
-      <module name="spark-core" />
+    <configuration name="Demo9" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.realtime.test.Demo9" />
+      <module name="spark-streaming-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.core.day02.action.*" />
+          <option name="PATTERN" value="com.atguigu.realtime.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +454,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reduce" />
-        <item itemvalue="Application.Foreach" />
-        <item itemvalue="Application.TakeOrdered" />
-        <item itemvalue="Application.Pratice" />
-        <item itemvalue="Application.CoGroup" />
+        <item itemvalue="Application.Demo9" />
+        <item itemvalue="Application.Demo8" />
+        <item itemvalue="Application.Demo7" />
+        <item itemvalue="Application.Demo6" />
+        <item itemvalue="Application.Demo5" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +466,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.18579236" />
           <treeState>
             <expand />
             <select />
@@ -210,7 +489,26 @@
       <workItem from="1578195206860" duration="18842000" />
       <workItem from="1578269777153" duration="19841000" />
       <workItem from="1578303699688" duration="13156000" />
-      <workItem from="1578356967160" duration="19367000" />
+      <workItem from="1578356967160" duration="28119000" />
+      <workItem from="1578442802263" duration="24921000" />
+      <workItem from="1578496696466" duration="2264000" />
+      <workItem from="1578532612981" duration="5162000" />
+      <workItem from="1578538022896" duration="100000" />
+      <workItem from="1578538159030" duration="16283000" />
+      <workItem from="1578615465614" duration="26692000" />
+      <workItem from="1578702092146" duration="25962000" />
+      <workItem from="1578788186733" duration="11949000" />
+      <workItem from="1578804428248" duration="5103000" />
+      <workItem from="1578814204959" duration="10087000" />
+      <workItem from="1578875113496" duration="36709000" />
+      <workItem from="1578978565112" duration="603000" />
+      <workItem from="1578979849401" duration="6831000" />
+      <workItem from="1579050732275" duration="22843000" />
+      <workItem from="1579134792402" duration="9442000" />
+      <workItem from="1579266698273" duration="68000" />
+      <workItem from="1579266803456" duration="1379000" />
+      <workItem from="1579580192109" duration="837000" />
+      <workItem from="1580868625594" duration="13990000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1578304112978</created>
@@ -282,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578384714955</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新了一个练习">
+      <created>1578387172239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578387172239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,37 +615,66 @@
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="1087" y="2162" key="#Notifications/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578384656719" />
-    <state x="362" y="75" key="#Project_Structure" timestamp="1578219148119">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1156" y="2164" key="#Project_Structure" timestamp="1578902767087">
+      <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="362" y="75" key="#Project_Structure/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578219148119" />
+    <state x="362" y="75" key="#Project_Structure/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578556632025" />
+    <state x="1156" y="2164" key="#Project_Structure/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578902767087" />
+    <state x="362" y="5" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578838001051" />
     <state x="362" y="75" key="#Scala" timestamp="1578212533913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="75" key="#Scala/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578212533913" />
-    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578385765429">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="1062" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579146271610">
+      <screen x="645" y="2160" width="1280" height="680" />
     </state>
     <state x="1271" y="1041" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578299400767" />
+    <state x="500" y="171" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579085044509" />
     <state x="500" y="171" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578237474918" />
-    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578385765429" />
-    <state x="1333" y="2234" key="#com.intellij.ide.util.MemberChooser" timestamp="1578378999463">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="1062" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579146271610" />
+    <state x="500" y="171" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578901475240" />
+    <state x="1271" y="2301" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578919430013" />
+    <state x="500" y="171" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578837039114" />
+    <state x="170" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579010250924">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="170" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579010250924" />
+    <state x="170" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578818283636" />
+    <state x="362" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578753880634" />
+    <state x="498" y="79" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1578470457732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="79" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578470457732" />
+    <state x="1124" y="2234" key="#com.intellij.ide.util.MemberChooser" timestamp="1579145712030">
+      <screen x="645" y="2160" width="1280" height="680" />
+    </state>
+    <state x="575" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579084308885" />
     <state x="575" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578231712351" />
-    <state x="1333" y="2234" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578378999463" />
-    <state x="1381" y="2182" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578107183979">
-      <screen x="1116" y="2160" width="1280" height="680" />
+    <state x="1124" y="2234" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579145712030" />
+    <state x="575" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578875805853" />
+    <state x="1333" y="2234" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578902905104" />
+    <state x="575" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578496781802" />
+    <state x="318" y="27" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579076008463">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="318" y="27" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579076008463" />
     <state x="1381" y="2182" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578107183979" />
-    <state x="1142" y="2160" key="CommitChangelistDialog2" timestamp="1578384713933">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="-1669" y="1193" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580870131495">
+      <screen x="-1920" y="924" width="1280" height="680" />
     </state>
-    <state x="345" y="9" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578366181311" />
+    <state x="-1669" y="1193" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1580870131495" />
+    <state x="1105" y="2429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578400762703" />
+    <state x="345" y="9" key="CommitChangelistDialog2" timestamp="1578387170130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="9" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578387170130" />
     <state x="1142" y="2160" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578384713933" />
-    <state x="1275" y="2259" key="FileChooserDialogImpl" timestamp="1578368408201">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="505" y="120" key="FileChooserDialogImpl" timestamp="1580903629005">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903629005" />
+    <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578816670379" />
     <state x="1275" y="2259" key="FileChooserDialogImpl/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578368408200" />
     <state x="604" y="309" key="Github.ShareDialog" timestamp="1578304288446">
       <screen x="0" y="0" width="1536" height="824" />
@@ -350,93 +684,148 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="120" key="Github.UntrackedFilesDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578303976308" />
-    <state width="1238" height="140" key="GridCell.Tab.0.bottom" timestamp="1578386957048">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1580903636804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.bottom/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
+    <state width="1237" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.370.1280.680@-1920.370.1280.680" timestamp="1579071835992" />
+    <state width="1493" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579095016832" />
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1580890562336" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903636804" />
     <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1237" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578368859056" />
-    <state width="1238" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578386957048" />
-    <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578325815183" />
-    <state width="1238" height="140" key="GridCell.Tab.0.center" timestamp="1578386957048">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.824/645.2160.1280.680@0.0.1536.824" timestamp="1579162941735" />
+    <state width="1238" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579161929389" />
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578926415746" />
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578921199636" />
+    <state width="1493" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579182941776" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1580903636804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.center/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
+    <state width="1237" height="169" key="GridCell.Tab.0.center/0.0.1536.824/-1920.370.1280.680@-1920.370.1280.680" timestamp="1579071835991" />
+    <state width="1493" height="169" key="GridCell.Tab.0.center/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579095016832" />
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1580890562336" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903636804" />
     <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1237" height="144" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578368859056" />
-    <state width="1238" height="140" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578386957048" />
-    <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
-    <state width="1238" height="140" key="GridCell.Tab.0.left" timestamp="1578386957048">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.824/645.2160.1280.680@0.0.1536.824" timestamp="1579162941735" />
+    <state width="1238" height="253" key="GridCell.Tab.0.center/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579161929388" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578926415745" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578921199636" />
+    <state width="1493" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579182941776" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1580903636804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.left/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
+    <state width="1237" height="169" key="GridCell.Tab.0.left/0.0.1536.824/-1920.370.1280.680@-1920.370.1280.680" timestamp="1579071835991" />
+    <state width="1493" height="169" key="GridCell.Tab.0.left/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579095016831" />
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1580890562335" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903636804" />
     <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565048" />
-    <state width="1237" height="144" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578368859055" />
-    <state width="1238" height="140" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578386957048" />
-    <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
-    <state width="1238" height="140" key="GridCell.Tab.0.right" timestamp="1578386957048">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.824/645.2160.1280.680@0.0.1536.824" timestamp="1579162941735" />
+    <state width="1238" height="253" key="GridCell.Tab.0.left/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579161929388" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578926415744" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578921199636" />
+    <state width="1493" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579182941775" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1580903636804">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="287" key="GridCell.Tab.0.right/0.0.1440.860/854.900.1280.680@854.900.1280.680" timestamp="1578300899888" />
+    <state width="1237" height="169" key="GridCell.Tab.0.right/0.0.1536.824/-1920.370.1280.680@-1920.370.1280.680" timestamp="1579071835991" />
+    <state width="1493" height="169" key="GridCell.Tab.0.right/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579095016832" />
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1580890562336" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903636804" />
     <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128565049" />
-    <state width="1237" height="144" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578368859056" />
-    <state width="1238" height="140" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578386957048" />
-    <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578325815182" />
-    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1578238798052">
+    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.824/645.2160.1280.680@0.0.1536.824" timestamp="1579162941735" />
+    <state width="1238" height="253" key="GridCell.Tab.0.right/0.0.1536.824/645.2160.1280.680@645.2160.1280.680" timestamp="1579161929388" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578926415746" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578921199636" />
+    <state width="1493" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579182941776" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1578583280792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798052" />
-    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1578238798051">
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578559805220" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578583280792" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1578583280792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
-    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1578238798051">
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578559805219" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578583280792" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1578583280792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798051" />
-    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1578238798052">
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578559805219" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578583280792" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1578583280792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578238798052" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578559805220" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578583280792" />
+    <state width="260" height="478" key="HiddenNamespacesPopup" timestamp="1579010167300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="260" height="478" key="HiddenNamespacesPopup/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579010167300" />
+    <state width="216" height="477" key="HiddenNamespacesPopup/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578816776623" />
+    <state width="216" height="394" key="HiddenNamespacesPopup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578879687179" />
+    <state width="216" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1578754005620" />
     <state x="1205" y="2217" key="MultipleFileMergeDialog" timestamp="1578384792239">
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="1205" y="2217" key="MultipleFileMergeDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578384792239" />
-    <state x="998" y="2160" key="SettingsEditor" timestamp="1578277180702">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="173" y="46" width="990" height="706" key="SettingsEditor" timestamp="1579076599284">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="173" y="46" key="SettingsEditor/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579076599284" />
     <state x="1260" y="2160" key="SettingsEditor/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128026979" />
+    <state x="173" y="46" width="990" height="706" key="SettingsEditor/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578557286966" />
     <state x="998" y="2160" key="SettingsEditor/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578277180702" />
-    <state x="1087" y="2237" key="Vcs.Push.Dialog.v2" timestamp="1578384718639">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="280" y="93" key="Vcs.Push.Dialog.v2" timestamp="1578387182721">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="280" y="93" key="Vcs.Push.Dialog.v2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578366186526" />
+    <state x="280" y="93" key="Vcs.Push.Dialog.v2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578387182721" />
     <state x="1087" y="2237" key="Vcs.Push.Dialog.v2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578384718639" />
     <state x="1592" y="2408" key="WebDeployment.AddServerDialog.v.1" timestamp="1578128141370">
       <screen x="1116" y="2160" width="1280" height="680" />
     </state>
     <state x="1592" y="2408" key="WebDeployment.AddServerDialog.v.1/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578128141370" />
-    <state x="1191" y="2329" key="com.intellij.ide.util.TipDialog" timestamp="1578356972270">
-      <screen x="854" y="2160" width="1280" height="680" />
+    <state x="404" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1579266805452">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1578979859870" />
     <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.545.1280.680@0.0.1536.824" timestamp="1578269776133" />
     <state x="1453" y="2329" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578107096435" />
-    <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578303700938" />
-    <state x="1191" y="2329" key="com.intellij.ide.util.TipDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578356972270" />
-    <state x="1144" y="2205" key="new project wizard" timestamp="1578127055360">
-      <screen x="1116" y="2160" width="1280" height="680" />
+    <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578875113720" />
+    <state x="1191" y="2329" key="com.intellij.ide.util.TipDialog/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578814208047" />
+    <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824/872.2160.1280.680@0.0.1536.824" timestamp="1579134796046" />
+    <state x="404" y="205" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579266805452" />
+    <state x="302" y="99" key="new project wizard" timestamp="1580903620056">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="302" y="99" key="new project wizard/0.0.1536.824/-1920.370.1280.680@0.0.1536.824" timestamp="1579082854491" />
+    <state x="302" y="99" key="new project wizard/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903620056" />
     <state x="1144" y="2205" key="new project wizard/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578127055360" />
-    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup" timestamp="1578385123197">
+    <state x="34" y="55" key="new project wizard/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578534961872" />
+    <state x="882" y="2205" key="new project wizard/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578652070375" />
+    <state x="302" y="99" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578832802552" />
+    <state x="520" y="306" key="run.anything.popup" timestamp="1578886095762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="306" key="run.anything.popup/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578886095762" />
+    <state x="520" y="306" key="run.anything.popup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578447790046" />
+    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup" timestamp="1578902747071">
       <screen x="854" y="2160" width="1280" height="680" />
     </state>
     <state x="1419" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1116.2160.1280.680@1116.2160.1280.680" timestamp="1578127647737" />
-    <state x="364" y="1" width="807" height="822" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578310878872" />
-    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578385123197" />
+    <state x="364" y="1" width="807" height="822" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578901980805" />
+    <state x="1157" y="2161" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578902747071" />
+    <state x="364" y="1" width="807" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578497627884" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,6 +839,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/RDD.scala</url>
           <line>86</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/RDD2DF.scala</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

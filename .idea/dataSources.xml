@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@hadoop100" uuid="48d81231-4434-49cf-82f1-7b5e5ed98db1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://hadoop100:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hadoop102-Spark" uuid="da0d5c88-fc85-4a5c-8c81-f30f3156295b">
+      <driver-ref>30c3b076-a8c2-4351-87c1-80dc19b9115d</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop102:10000</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hadoop103-Hive" uuid="a77e7c88-6334-43dc-9662-be32da6b84a2">
+      <driver-ref>30c3b076-a8c2-4351-87c1-80dc19b9115d</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop103:10000</jdbc-url>
+    </data-source>
+  </component>
+</project>
