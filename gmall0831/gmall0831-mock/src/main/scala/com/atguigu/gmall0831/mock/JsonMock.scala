@@ -12,7 +12,7 @@ object JsonMock {
   val eventNum = 200000 // 生成的事件日志的记录数
 
   // 操作系统的分布
-  val osOpts = RandomOptions(("ios", 3), ("android", 7))
+  val osOpts = RandomOptions(("ios", 3), ("android", 7),("pc",2))
 
   // 日志开始时间
   var startDate: Date = _
@@ -46,7 +46,8 @@ object JsonMock {
     ("360", 20), ("tencent", 20), ("baidu", 10), ("website", 10))
 
   // 生成模拟数据的时候是否结束退出
-  val quitOpts = RandomOptions((true, 100), (false, 100))
+  //val quitOpts = RandomOptions((true, 100), (false, 100))
+  val quitOpts = RandomOptions((true, 5), (false, 100))
 
   // 模拟出来一条启动日志
   def initOneStartupLog(): String = {
@@ -62,8 +63,8 @@ object JsonMock {
     `channel` string COMMENT '渠道'
      */
     //val mid: String = "mid_" + RandomNumUtil.randomInt(1, 3)
-    //val mid: String = "mid_" + RandomNumUtil.randomInt(1, 300)
-    val uid: String = "" + RandomNumUtil.randomInt(1, 500)
+    //val uid: String = "mid_" + RandomNumUtil.randomInt(1, 8)
+    val mid: String = "" + RandomNumUtil.randomInt(1, 500)
     val uid: String = "" + RandomNumUtil.randomInt(1, 300)
     val os: String = osOpts.getRandomOption()
     val appId: String = this.appId
@@ -120,9 +121,9 @@ object JsonMock {
     (0 to startupNum).foreach(_ => {
       // 生成一条启动日志
       val oneStartupLog: String = initOneStartupLog()
-      //println("启动日志: " + oneStartupLog)
       // 发送启动日志
       LogUploader.sendLog(oneStartupLog)
+      //println("启动日志: " + oneStartupLog)
       // 模拟出来多条事件日志
       while (!quitOpts.getRandomOption()) {
         // 生成一条事件日志

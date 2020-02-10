@@ -13,6 +13,7 @@
         <module>gmall0831-mock</module>
         <module>gmall0831-logger</module>
         <module>gmall0831-realtime</module>
+        <module>gmall0831-publisher</module>
     </modules>
 
     <!-- 由于子模块会用到 springboot, 而 springboot 必须使用这个父项目: spring-boot-starter-parent,

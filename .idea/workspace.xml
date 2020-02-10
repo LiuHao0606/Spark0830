@@ -2,276 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5a5f924-7800-4911-8c6c-7894a5ecb0d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomDate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomNumUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/common/src/main/scala/com/atguigu/gmall083001/common/util/RandomOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/java/com/atguigu/gmall083001/gmall083001logger/Gmall083001LoggerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/main/scala/com/atguigu/gmall083001/gmall083001logger/controller/LoggerController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001-logger/src/test/java/com/atguigu/gmall083001/gmall083001logger/Gmall083001LoggerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/gmall083001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/mock/mock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/mock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/mock/src/main/scala/com/atguigu/gmall083001/mock/JsonMock.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall083001/mock/src/main/scala/com/atguigu/gmall083001/mock/util/LogUploader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/ConstantUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomDate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomNumUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-common/src/main/scala/com/atguigu/gmall0831/common/util/RandomOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/java/com/atguigu/gmall0831logger/Gmall0831LoggerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/main/scala/com/atguigu/gmall0831logger/controller/LoggerController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-logger/src/test/java/com/atguigu/gmall0831logger/Gmall0831LoggerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/gmall0831-mock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/JsonMock.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/util/LogUploader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/gmall0831-realtime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/app/DauApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/bean/StartupLog.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/MyKafkaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/PropertiesUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/util/RedisUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall0831/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/mockdata.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/CityInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/mock/MockRealtime.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/util/RandomNumUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockdata/src/main/scala/com/atguigu/realtime/util/RandomOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/._partitioner.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00004.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00005.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00006.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/.part-00007.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/_partitioner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-120/part-00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/._partitioner.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00004.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00005.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00006.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/.part-00007.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/_partitioner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/42af7cff-fba8-48ee-b71d-1d6434086919/rdd-99/part-00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/._partitioner.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00004.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00005.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00006.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/.part-00007.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/_partitioner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2955/part-00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/._partitioner.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00004.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00005.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00006.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/.part-00007.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/_partitioner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime/514be500-9aec-494e-84ae-a21013fe481e/rdd-2976/part-00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/spark-core-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/acc/CategoryAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/CategorySessionTop10App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/CategoryTop10App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/app/ProjectApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/CategoryCountInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/CategorySession.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/project/bean/UserVisitAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/acc/MyCatagoryTop10Acc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/CatagoryTop10App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/CateforyTop10Session.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/PageConvertApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/app/ProjectApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/CategoryCountInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/CategorySession.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core-project/src/main/scala/com/atguigu/spark/project/bean/UserVisitAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/CheckPoint.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/JobTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest03/TransmitFun.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/BroadCastTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/MyLongAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/MyMapAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/MyTest04/addTest3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/TestMax.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/CheckPoint.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/HBaseRead.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/JDBCRead.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/JDBCWrite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/MyPartition.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/SaveText.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day03/TranssmitFunc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/BroadcastTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/MapAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/MyAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day04/Test03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/hello/Test01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/spark-sql.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DF2DS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DS2Other.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/DSDeme.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/RDD2DF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/RDD2DF_2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/udf/MySumUDF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day01/udf/MySumUDFTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/CityRemarkUDAF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/CityRemarkUDAF1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/HiveOprate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/JDBCRead.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/JDBCWrite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/day02/Project_Hive.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/CreateDS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/DF2DS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/DF2RDD.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/RDD2DF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test01/RDD2DS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/hive/HiveSQL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/project/RemarkUDAF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/project/SqlApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvg.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvgStroge.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MyAvgTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MySum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/scala/com/atguigu/test02/udf/MySumTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/spark-streaming-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/AreaAdsClickTop3App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/app/LastHourAdsClickApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/bean/AdsInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo6.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo7.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo8.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/Demo9.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/MapDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/test/demo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/util/MyKafkaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-project/src/main/scala/com/atguigu/realtime/util/MyRedisUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/spark-streaming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/Kafka_WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/MyReceiver.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day01/WordCount2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/KfkaWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/KfkaWordCount2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/day02/WordCountWindow2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/CustomReceiver.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/kafka_wd3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/transform/TransformDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/transform/WithStateDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/wordcount1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test01/wordcount2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test02/windows/Test01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/scala/com/atguigu/spark/streaming/test02/windows/Test02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-warehouse/sql20200111.db/user/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-warehouse/sql20200111.db/user/part-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/java/com/atguigu/gmall0831publisher/Gmall0831PublisherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/java/com/atguigu/gmall0831publisher/controller/PublisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/java/com/atguigu/gmall0831publisher/mapper/DauMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/java/com/atguigu/gmall0831publisher/service/PublisherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/java/com/atguigu/gmall0831publisher/service/PublisherServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/main/resources/mapper/DauMapper xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-publisher/src/test/java/com/atguigu/gmall0831publisher/Gmall0831PublisherApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/src/main/java/com/atguigu/gmall0831zzzzz/Gmall0831ZzzzzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall0831/gmall0831-zzzzz/src/test/java/com/atguigu/gmall0831zzzzz/Gmall0831ZzzzzApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/JoinRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/JoinRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/PartitionBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/scala/com/atguigu/spark/core/day02/keyvalue/PartitionBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/JsonMock.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/gmall0831-mock/src/main/scala/com/atguigu/gmall0831/mock/JsonMock.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/app/DauApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/gmall0831-realtime/src/main/scala/com/atguigu/realtime/app/DauApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall0831/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall0831/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +124,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall0831" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/2019_08_30/02_spark_kernal/02_资料/spark-2.1.1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -509,6 +275,7 @@
       <workItem from="1579266803456" duration="1379000" />
       <workItem from="1579580192109" duration="837000" />
       <workItem from="1580868625594" duration="13990000" />
+      <workItem from="1581035368928" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1578304112978</created>
@@ -670,9 +437,10 @@
     </state>
     <state x="345" y="9" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578387170130" />
     <state x="1142" y="2160" key="CommitChangelistDialog2/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578384713933" />
-    <state x="505" y="120" key="FileChooserDialogImpl" timestamp="1580903629005">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1499" y="1023" key="FileChooserDialogImpl" timestamp="1581038808462">
+      <screen x="-1920" y="924" width="1280" height="680" />
     </state>
+    <state x="-1499" y="1023" key="FileChooserDialogImpl/0.0.1536.824/-1920.924.1280.680@-1920.924.1280.680" timestamp="1581038808462" />
     <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824/-1920.924.1280.680@0.0.1536.824" timestamp="1580903629005" />
     <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824/854.2160.1280.680@0.0.1536.824" timestamp="1578816670379" />
     <state x="1275" y="2259" key="FileChooserDialogImpl/0.0.1536.824/854.2160.1280.680@854.2160.1280.680" timestamp="1578368408200" />

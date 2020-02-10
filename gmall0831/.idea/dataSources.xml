@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="phoenix" uuid="eaf5c9c3-3ea7-4512-a10f-3220a91f2a97">
+      <driver-ref>5a29ffa7-bb95-4ec3-879b-0066c4c374f4</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.phoenix.jdbc.PhoenixDriver</jdbc-driver>
+      <jdbc-url>jdbc:phoenix:hadoop102:2181</jdbc-url>
+    </data-source>
+  </component>
+</project>

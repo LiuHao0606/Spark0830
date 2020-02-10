@@ -6,16 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gmall0831-publisher" />
         <module name="gmall0831-mock" />
+        <module name="gmall0831-realtime" />
+        <module name="gmall0831-zzzzz" />
         <module name="gmall0831-common" />
         <module name="gmall0831-logger" />
-        <module name="gmall0831-realtime" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmall0831-zzzzz" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gmall0831-logger" options="" />
+      <module name="gmall0831-publisher" options="" />
+      <module name="gmall0831-zzzzz" options="-parameters" />
     </option>
   </component>
 </project>
