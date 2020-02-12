@@ -8,6 +8,8 @@ public interface PublisherService {
 
     long getDauTotal(String date);
 
+    long getMidTotal(String date);
+
     Map getDauHour(String date);
 
 }

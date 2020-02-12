@@ -8,5 +8,12 @@
       <jdbc-driver>org.apache.phoenix.jdbc.PhoenixDriver</jdbc-driver>
       <jdbc-url>jdbc:phoenix:hadoop102:2181</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hadoop100" uuid="608fc7b2-03a7-47d5-8944-d49d586f5069">
+      <driver-ref>246b12ff-9796-4de8-935d-e160786e7818</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.1.100:3306</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -6,7 +6,10 @@
     <select id="getDauTotal" resultType="java.lang.Long">
         select count(*) from GMALL_DAU where LOGDATE=#{date}
     </select>
-
+    <!--新增设备数-->
+    <select id="getMidTotal" resultType="java.lang.Long">
+        select count(distinct MID) COUNT from GMALL_DAU where LOGDATE=#{date}
+    </select>
     <!--分时明细-->
     <select id="getDauHour" resultMap="dauHourList">
         select LOGHOUR, count(*) COUNT from GMALL_DAU where LOGDATE=#{date} group by LOGHOUR

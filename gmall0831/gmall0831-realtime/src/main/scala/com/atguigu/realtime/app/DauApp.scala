@@ -21,7 +21,7 @@ object DauApp {
     val ssc = new StreamingContext(conf, Seconds(3))
     //1.从kafka获取启动日志数据
     val sourceDStream: InputDStream[(String, String)] = MyKafkaUtil.getKafkaStream(ssc, ConstantUtil.STARTUP_TOPIC)
-    sourceDStream.print()
+
     //2.封装数据
     val startupLogDStream = sourceDStream.map {
       case (_, value) =>
@@ -30,6 +30,7 @@ object DauApp {
         log.logHour = new SimpleDateFormat("HH").format(log.ts)
         log
     }
+    startupLogDStream .print()
 
     //3.数据过滤,对写入过的做过滤，返回没有写过的
     val filterStartupLogDStream: DStream[StartupLog] = startupLogDStream.transform(rdd => {

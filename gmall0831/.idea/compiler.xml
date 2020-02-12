@@ -10,8 +10,10 @@
         <module name="gmall0831-mock" />
         <module name="gmall0831-realtime" />
         <module name="gmall0831-zzzzz" />
+        <module name="dw-chart" />
         <module name="gmall0831-common" />
         <module name="gmall0831-logger" />
+        <module name="gmall0831-canal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -34,7 +34,7 @@ public class PublisherController {
         Map<String,Object> map2=new HashMap<>();
         map2.put("id","new_mid");
         map2.put("name","新增设备");
-        map2.put("value",service.getDauTotal(date));
+        map2.put("value",service.getMidTotal(date));
         resultList.add(map2);
         return JSON.toJSONString(resultList);
     }

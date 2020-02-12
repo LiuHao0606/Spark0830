@@ -6,6 +6,8 @@ import java.util.Map;
 public interface DauMapper {
     // 查询日活总数
     long getDauTotal(String date);
+    //查询新增设备数
+    long getMidTotal(String date);
     // 查询小时明细
     List<Map> getDauHour(String date);
 }

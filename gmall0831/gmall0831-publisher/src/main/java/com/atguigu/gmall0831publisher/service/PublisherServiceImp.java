@@ -21,6 +21,11 @@ public class PublisherServiceImp implements PublisherService {
     }
 
     @Override
+    public long getMidTotal(String date) {
+        return dauMapper.getMidTotal(date);
+    }
+
+    @Override
     public Map getDauHour(String date)
     {
         List<Map> list=dauMapper.getDauHour(date);

@@ -9,5 +9,5 @@ case class StartupLog(mid: String,
                       logType: String,
                       version: String,
                       ts: Long,
-                      var logDate: String,
-                      var logHour: String)
+                      var logDate: String=null,
+                      var logHour: String=null)
